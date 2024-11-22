@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Jura:wght@300..700&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
@@ -16,6 +19,10 @@ nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        font-family: "Jura", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
     }
 
     h1 {
@@ -26,7 +33,7 @@ nav {
 ul {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 23px;
 
     img {
         height: 40px;
@@ -51,28 +58,464 @@ ul {
     padding-block: 20px;
 }
 
-.cartao1 {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   border: black solid;
-   padding: 15px;
-   width: 240px;
 
-   h2{
-    justify-content: none;
-   }
+.cartao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    padding-block: 15px;
+    width: 250px;
+    margin-block: 30px;
 
+    h2 {
+        text-align: left;
+        width: 100%;
+        padding-left: 10px;
+    }
 
-   img{
-    width: 220px;
-    border-bottom: black solid;
-    padding: 15px;
-   }
-   p{
-    width: 220px;
-    text-align: justify;
-   }
+    hr {
+        border: 2px solid;
+        width: 100%;
+    }
+
+    img {
+        width: 220px;
+        padding: 15px;
+    }
+
+    p {
+        width: 220px;
+        text-align: justify;
+    }
 
 }
+
+.cartao2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    padding-block: 15px;
+    width: 250px;
+    margin-block: 30px;
+
+    h2 {
+        text-align: left;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    hr {
+        border: 2px solid;
+        width: 100%;
+    }
+
+    img {
+        width: 220px;
+        padding: 15px;
+    }
+
+    p {
+        width: 220px;
+        text-align: justify;
+    }
+
+}
+
+.branco {
+    display: flex;
+    gap: 180px;
+    margin-left: 220px;
+}
+
+.cartao3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    padding-block: 15px;
+    width: 250px;
+    margin-block: 30px;
+
+    h2 {
+        text-align: left;
+        width: 100%;
+        padding-left: 10px;
+        
+    }
+
+    hr {
+        border: 2px solid;
+        width: 100%;
+    }
+
+    img {
+        width: 220px;
+        padding: 15px;
+    }
+
+    p {
+        width: 220px;
+        text-align: justify;
+    }
+
+}
+.bmizuno{
+    width: 100vw;
+}
+.bmizuno2{
+    width: 1200px;
+    padding-left: 300px;
+    margin-block: 20px;
+}
+
+.cartao4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    padding-block: 15px;
+    width: 250px;
+    margin-block: 30px;
+
+    h2 {
+        text-align: left;
+        width: 100%;
+        padding-left: 10px;
+        
+    }
+
+    hr {
+        border: 2px solid;
+        width: 100%;
+    }
+
+    img {
+        width: 220px;
+        padding: 15px;
+    }
+
+    p {
+        width: 220px;
+        text-align: justify;
+    }
+
+}
+
+.cartao5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    padding-block: 15px;
+    width: 250px;
+    margin-block: 30px;
+
+    h2 {
+        text-align: left;
+        width: 100%;
+        padding-left: 10px;
+        
+    }
+
+    hr {
+        border: 2px solid;
+        width: 100%;
+    }
+
+    img {
+        width: 220px;
+        padding: 15px;
+    }
+
+    p {
+        width: 220px;
+        text-align: justify;
+    }
+
+}
+
+.cartao6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    padding-block: 15px;
+    width: 250px;
+    margin-block: 30px;
+
+    h2 {
+        text-align: left;
+        width: 100%;
+        padding-left: 10px;
+        
+    }
+
+    hr {
+        border: 2px solid;
+        width: 100%;
+    }
+
+    img {
+        width: 220px;
+        padding: 15px;
+    }
+
+    p {
+        width: 220px;
+        text-align: justify;
+    }
+
+}
+
+.obranco {
+    display: flex;
+    gap: 180px;
+    margin-left: 220px;
+}
+.bannernike{
+    width: 100vw;
+}
+.bannernike2{
+    width: 550px;
+    margin-left: 150px;
+}
+.nike{
+    width: 600px;
+    margin-left: 60px;
+}
+
+.cartao7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    padding-block: 15px;
+    width: 250px;
+    margin-block: 30px;
+
+    h2 {
+        text-align: left;
+        width: 100%;
+        padding-left: 10px;
+        
+    }
+
+    hr {
+        border: 2px solid;
+        width: 100%;
+    }
+
+    img {
+        width: 220px;
+        padding: 15px;
+    }
+
+    p {
+        width: 220px;
+        text-align: justify;
+    }
+
+}
+
+.cartao8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    padding-block: 15px;
+    width: 250px;
+    margin-block: 30px;
+
+    h2 {
+        text-align: left;
+        width: 100%;
+        padding-left: 10px;
+        
+    }
+
+    hr {
+        border: 2px solid;
+        width: 100%;
+    }
+
+    img {
+        width: 220px;
+        padding: 15px;
+    }
+
+    p {
+        width: 220px;
+        text-align: justify;
+    }
+
+}
+
+.cartao9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    padding-block: 15px;
+    width: 250px;
+    margin-block: 30px;
+
+    h2 {
+        text-align: left;
+        width: 100%;
+        padding-left: 10px;
+        
+    }
+
+    hr {
+        border: 2px solid;
+        width: 100%;
+    }
+
+    img {
+        width: 220px;
+        padding: 15px;
+    }
+
+    p {
+        width: 220px;
+        text-align: justify;
+    }
+
+}
+
+.abranco {
+    display: flex;
+    gap: 180px;
+    margin-left: 220px;
+}
+.bpuma{
+    width: 100vw;
+}
+.bpuma2{
+    width: 1200px;
+    padding-left: 300px;
+    margin-block: 50px;
+}
+
+.cartao10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    padding-block: 15px;
+    width: 250px;
+    margin-block: 30px;
+
+    h2 {
+        text-align: left;
+        width: 100%;
+        padding-left: 10px;
+        
+    }
+
+    hr {
+        border: 2px solid;
+        width: 100%;
+    }
+
+    img {
+        width: 220px;
+        padding: 15px;
+    }
+
+    p {
+        width: 220px;
+        text-align: justify;
+    }
+
+}
+
+.cartao11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    padding-block: 15px;
+    width: 250px;
+    margin-block: 30px;
+
+    h2 {
+        text-align: left;
+        width: 100%;
+        padding-left: 10px;
+        
+    }
+
+    hr {
+        border: 2px solid;
+        width: 100%;
+    }
+
+    img {
+        width: 220px;
+        padding: 15px;
+    }
+
+    p {
+        width: 220px;
+        text-align: justify;
+    }
+
+}
+
+.cartao12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    padding-block: 15px;
+    width: 250px;
+    margin-block: 30px;
+
+    h2 {
+        text-align: left;
+        width: 100%;
+        padding-left: 10px;
+        
+    }
+
+    hr {
+        border: 2px solid;
+        width: 100%;
+    }
+
+    img {
+        width: 220px;
+        padding: 15px;
+    }
+
+    p {
+        width: 220px;
+        text-align: justify;
+    }
+
+}
+
+.bbranco {
+    display: flex;
+    gap: 180px;
+    margin-left: 220px;
+}
+
+
+
+
